@@ -24,4 +24,8 @@ public class spawner : MonoBehaviour {
 	}
 	
 	
-}
+} 
+/*
+ T.4.03.2014 - Rasmus Engstrøm 
+ Well, i found out how to edit the documents inside the github.com browser. 
+*/
