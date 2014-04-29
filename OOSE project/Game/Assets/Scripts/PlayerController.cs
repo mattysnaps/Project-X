@@ -46,7 +46,7 @@ public class PlayerController : Enemy {
 			}
 		}
 		
-		// Input
+		// Horizontal movement Input
 		targetSpeed = Input.GetAxisRaw(axisName) * speed;
 		currentSpeed = IncrementTowards(currentSpeed, targetSpeed,acceleration);
 		
@@ -63,7 +63,7 @@ public class PlayerController : Enemy {
 
 	}
 	
-	// Increase n towards target by speed
+	// Increase current speed towards target by speed
 	private float IncrementTowards(float curr, float target, float acc) {
 		if (curr == target) {
 			return curr;	
