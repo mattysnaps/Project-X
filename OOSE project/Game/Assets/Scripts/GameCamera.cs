@@ -21,15 +21,15 @@ public class GameCamera : MonoBehaviour {
 		}
 	}
 	
-	// Increase n towards target by speed
-	private float IncrementTowards(float n, float target, float a) {
-		if (n == target) {
-			return n;	
+	// Increase current towards target by speed
+	private float IncrementTowards(float curr, float target, float acc) {
+		if (curr == target) {
+			return curr;	
 		}
 		else {
-			float dir = Mathf.Sign(target - n); // must n be increased or decreased to get closer to target
-			n += a * Time.deltaTime * dir;
-			return (dir == Mathf.Sign(target-n))? n: target; // if n has now passed target then return target, otherwise return n
+			float dir = Mathf.Sign(target - curr); // curr (speed) going to be increased or decreased in order to get closer to target (speed)
+			curr += acc * Time.deltaTime * dir;
+			return (dir == Mathf.Sign(target-curr))? curr: target; // if curr (speed) has passed target (speed) then return target (speed), otherwise return curr (speed)
 		}
 	}
 }

@@ -8,6 +8,6 @@ public class LockZ : MonoBehaviour {
 	
 		Vector3 pos = transform.position;
 		pos.z = 0;
-		transform.position = pos;
+		transform.position = pos; // simply locks the z-axies
 	}
 }
