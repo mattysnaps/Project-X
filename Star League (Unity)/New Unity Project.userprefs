@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Main Menu.js">
+    <Files>
+      <File FileName="Assets\Scripts\RestartGame.cs" Line="10" Column="65" />
+      <File FileName="Assets\Scripts\BackButton.cs" Line="12" Column="73" />
+      <File FileName="Assets\Scripts\Main Menu.js" Line="80" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
